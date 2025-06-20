@@ -113,7 +113,7 @@ public class EmployeeService {
 
         EmployeeHierarchy root = null;
         for (Employee employee : empList) {
-            System.out.println("employee manager id::"+employee.managerId);
+            //System.out.println("employee manager id::"+employee.managerId);
             if (employee.managerId == null && root==null) {
                 root = nodeMap.get(employee.id);
             } else {
